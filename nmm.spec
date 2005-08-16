@@ -7,9 +7,9 @@ Group:		Applications
 Source0:	http://graphics.cs.uni-sb.de/NMM/dist-0.9.0/Download/%{name}-%{version}.tar.gz
 # Source0-md5:	7cd7e34168e1e57c9897f1c67cdce3d5
 URL:		http://www.networkmultimedia.org/NMM/
-BuildRequires:  autoconf
-BuildRequires:  automake
-BuildRequires:  libtool
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool
 BuildRequires:	libxml2-devel
 BuildRequires:	ncurses-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
