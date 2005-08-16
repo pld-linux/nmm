@@ -14,9 +14,12 @@ BuildRequires:	automake
 BuildRequires:	avifile-devel
 BuildRequires:	htmldoc
 BuildRequires:	libtool
+BuildRequires:	libdivxdecore-devel
 BuildRequires:	libdvdnav-devel
+BuildRequires:	libdvdread-devel
 BuildRequires:	libshout-devel
 BuildRequires:	libxml2-devel
+BuildRequires:	live
 BuildRequires:	mpeg2dec-devel
 BuildRequires:	nasm
 BuildRequires:	ncurses-devel
