@@ -25,6 +25,7 @@ BuildRequires:	mpeg2dec-devel
 BuildRequires:	nasm
 BuildRequires:	ncurses-devel
 BuildRequires:	qt-devel
+BuildRequires:	xerces-c-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
