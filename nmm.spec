@@ -9,6 +9,7 @@ Source0:	http://graphics.cs.uni-sb.de/NMM/dist-0.9.0/Download/%{name}-%{version}
 URL:		http://www.networkmultimedia.org/NMM/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	avifile-devel
 BuildRequires:	libtool
 BuildRequires:	libxml2-devel
 BuildRequires:	ncurses-devel
