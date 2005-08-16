@@ -7,15 +7,20 @@ Group:		Applications
 Source0:	http://graphics.cs.uni-sb.de/NMM/dist-0.9.0/Download/%{name}-%{version}.tar.gz
 # Source0-md5:	7cd7e34168e1e57c9897f1c67cdce3d5
 URL:		http://www.networkmultimedia.org/NMM/
+BuildRequires:	ImageMagick-c++-devel
 BuildRequires:	a52dec-libs-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	avifile-devel
 BuildRequires:	htmldoc
 BuildRequires:	libtool
+BuildRequires:	libdvdnav-devel
+BuildRequires:	libshout-devel
 BuildRequires:	libxml2-devel
+BuildRequires:	mpeg2dec-devel
 BuildRequires:	nasm
 BuildRequires:	ncurses-devel
+BuildRequires:	qt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
