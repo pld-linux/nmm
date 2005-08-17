@@ -1,4 +1,5 @@
-Summary:	NETWORK-INTEGRATED MULTIMEDIA MIDDLEWARE
+Summary:	Network-integrated Multimedia Middleware
+Summary(pl):	Network-integrated Multimedia Middleware - zintegrowany z sieci± system multimedialny
 Name:		nmm
 Version:	0.9.0
 Release:	0.1
@@ -37,6 +38,16 @@ an extensible home entertainment system for DVD/CD playback and
 grabbing, TV with time-shifting, video recording, and playlist
 creation and playback for all supported media types.
 
+%description -l pl
+NMM to pakiet po¶rednicz±cego oprogramowania multimedialnego
+umo¿liwiaj±cy ³atwe tworzenie rozproszonych aplikacji multimedialnych.
+Za³±czonych jest wiele wtyczek obs³uguj±cych ró¿ne rodzaje mediów,
+operacji i urz±dzeñ we/wy. Aplikacja Multimedia-Box stworzona w
+oparciu o NMM udostêpnia rozszerzalny system domowej rozrywki do
+odtwarzania i przechwytywania DVD/CD, telewizji z przesuniêciem w
+czasie, nagrywania obrazu oraz tworzenia playlist dla wszystkich
+obs³ugiwanych rodzajów mediów.
+
 %prep
 %setup -q
 
@@ -46,9 +57,6 @@ creation and playback for all supported media types.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-# create directories if necessary
-#install -d $RPM_BUILD_ROOT
-#install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
@@ -59,6 +67,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS CREDITS ChangeLog NEWS README THANKS TODO
-
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/%{name}
