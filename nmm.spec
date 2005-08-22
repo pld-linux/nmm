@@ -14,11 +14,11 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	avifile-devel
 BuildRequires:	htmldoc
-BuildRequires:	libtool
 BuildRequires:	libdivxdecore-devel
 BuildRequires:	libdvdnav-devel
 BuildRequires:	libdvdread-devel
 BuildRequires:	libshout-devel
+BuildRequires:	libtool
 BuildRequires:	libxml2-devel
 BuildRequires:	lirc-devel
 BuildRequires:	live
