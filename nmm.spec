@@ -1,19 +1,22 @@
 Summary:	Network-integrated Multimedia Middleware
 Summary(pl):	Network-integrated Multimedia Middleware - zintegrowany z sieci± system multimedialny
 Name:		nmm
-Version:	0.9.0
+Version:	0.9.1
 Release:	0.1
 License:	GPL v2
 Group:		Applications
-Source0:	http://graphics.cs.uni-sb.de/NMM/dist-0.9.0/Download/%{name}-%{version}.tar.gz
-# Source0-md5:	7cd7e34168e1e57c9897f1c67cdce3d5
+Source0:	http://graphics.cs.uni-sb.de/NMM/dist-%{version}/Download/%{name}-%{version}.tar.gz
+# Source0-md5:	7e7e1fa9c2648da0d59c54aa414bc9c7
 URL:		http://www.networkmultimedia.org/NMM/
 BuildRequires:	ImageMagick-c++-devel
 BuildRequires:	a52dec-libs-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	avifile-devel
-BuildRequires:	htmldoc
+BuildRequires:	cdparanoia-III-devel
+BuildRequires:	doxygen
+BuildRequires:	ffmpeg-devel
+BuildRequires:	gd-devel
 BuildRequires:	libdivxdecore-devel
 BuildRequires:	libdvdnav-devel
 BuildRequires:	libdvdread-devel
