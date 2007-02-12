@@ -1,5 +1,5 @@
 Summary:	Network-integrated Multimedia Middleware
-Summary(pl):	Network-integrated Multimedia Middleware - zintegrowany z sieci± system multimedialny
+Summary(pl.UTF-8):   Network-integrated Multimedia Middleware - zintegrowany z sieciÄ… system multimedialny
 Name:		nmm
 Version:	0.9.1
 Release:	0.1
@@ -41,15 +41,15 @@ an extensible home entertainment system for DVD/CD playback and
 grabbing, TV with time-shifting, video recording, and playlist
 creation and playback for all supported media types.
 
-%description -l pl
-NMM to pakiet po¶rednicz±cego oprogramowania multimedialnego
-umo¿liwiaj±cy ³atwe tworzenie rozproszonych aplikacji multimedialnych.
-Za³±czonych jest wiele wtyczek obs³uguj±cych ró¿ne rodzaje mediów,
-operacji i urz±dzeñ we/wy. Aplikacja Multimedia-Box stworzona w
-oparciu o NMM udostêpnia rozszerzalny system domowej rozrywki do
-odtwarzania i przechwytywania DVD/CD, telewizji z przesuniêciem w
+%description -l pl.UTF-8
+NMM to pakiet poÅ›redniczÄ…cego oprogramowania multimedialnego
+umoÅ¼liwiajÄ…cy Å‚atwe tworzenie rozproszonych aplikacji multimedialnych.
+ZaÅ‚Ä…czonych jest wiele wtyczek obsÅ‚ugujÄ…cych rÃ³Å¼ne rodzaje mediÃ³w,
+operacji i urzÄ…dzeÅ„ we/wy. Aplikacja Multimedia-Box stworzona w
+oparciu o NMM udostÄ™pnia rozszerzalny system domowej rozrywki do
+odtwarzania i przechwytywania DVD/CD, telewizji z przesuniÄ™ciem w
 czasie, nagrywania obrazu oraz tworzenia playlist dla wszystkich
-obs³ugiwanych rodzajów mediów.
+obsÅ‚ugiwanych rodzajÃ³w mediÃ³w.
 
 %prep
 %setup -q
