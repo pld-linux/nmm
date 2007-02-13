@@ -1,5 +1,5 @@
 Summary:	Network-integrated Multimedia Middleware
-Summary(pl.UTF-8):   Network-integrated Multimedia Middleware - zintegrowany z siecią system multimedialny
+Summary(pl.UTF-8):	Network-integrated Multimedia Middleware - zintegrowany z siecią system multimedialny
 Name:		nmm
 Version:	0.9.1
 Release:	0.1
